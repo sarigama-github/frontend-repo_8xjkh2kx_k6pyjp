@@ -1,0 +1,57 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 218 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.58.114:3000/
+9:02:05 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:18:109: ERROR: Unexpected closing "ndiv" tag does not match opening "div" tag
+9:02:05 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:18:109: ERROR: Unexpected closing "ndiv" tag does not match opening "div" tag
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:18:109
+  
+  Unexpected closing "ndiv" tag does not match opening "div" tag
+  16 |          <div className="flex items-center justify-between">
+  17 |            <div className="flex items-center gap-2">
+  18 |              <div className="h-8 w-8 rounded-xl bg-blue-500 text-white grid place-items-center font-bold">CB</ndiv>
+     |                                                                                                               ^
+  19 |              <div>
+  20 |                <p className="text-sm font-semibold text-gray-900">CareBridge</p>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+9:02:34 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:18:109: ERROR: Unexpected closing "ndiv" tag does not match opening "div" tag
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:18:109
+  
+  Unexpected closing "ndiv" tag does not match opening "div" tag
+  16 |          <div className="flex items-center justify-between">
+  17 |            <div className="flex items-center gap-2">
+  18 |              <div className="h-8 w-8 rounded-xl bg-blue-500 text-white grid place-items-center font-bold">CB</ndiv>
+     |                                                                                                               ^
+  19 |              <div>
+  20 |                <p className="text-sm font-semibold text-gray-900">CareBridge</p>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
